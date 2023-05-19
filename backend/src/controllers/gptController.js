@@ -14,7 +14,7 @@ async function generateText(ctx) {
 			"messages": [{"role": "user", "content": `You are an expert proffesional marketing writer! Write a promotional text for ${inputText},  with only a limited Number of words: ${textLength}!, specifically a ${socialMedia} type post focusing on ${audienceType} as its target audience, in the style: ${textType}`}]
 		}, {
       headers: {
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer MyOpenAiToken",
         "Content-Type": "application/json",
       },
     });
